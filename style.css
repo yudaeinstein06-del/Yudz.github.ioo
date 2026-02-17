@@ -1,0 +1,128 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #0f0f1a;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+.container {
+    max-width: 420px;
+    margin: 30px auto;
+    background: #1a1a2e;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px #00f7ff44;
+    border: 1px solid #00f7ff33;
+}
+
+h2 {
+    text-align: center;
+    color: #00f7ff;
+    text-shadow: 0 0 10px #00f7ff;
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+    margin-top: 12px;
+    display: block;
+    color: #cccccc;
+}
+
+/* GAME CARD */
+.game-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.game-card {
+    background: #111;
+    border: 1px solid #00f7ff55;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.game-card img {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+    margin-bottom: 5px;
+}
+
+.game-card span {
+    display: block;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.game-card:hover {
+    background: #00f7ff;
+    color: black;
+    box-shadow: 0 0 15px #00f7ff;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 6px;
+    border-radius: 8px;
+    border: 1px solid #333;
+    background: #111;
+    color: white;
+    outline: none;
+}
+
+input:focus, select:focus {
+    border: 1px solid #00f7ff;
+    box-shadow: 0 0 10px #00f7ff55;
+}
+
+.nominal {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.nominal button {
+    padding: 10px;
+    border: 1px solid #00f7ff;
+    border-radius: 8px;
+    background: transparent;
+    color: #00f7ff;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.nominal button:hover {
+    background: #00f7ff;
+    color: black;
+    box-shadow: 0 0 15px #00f7ff;
+}
+
+.buy-btn {
+    width: 100%;
+    padding: 12px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 8px;
+    background: #ff00c8;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+    box-shadow: 0 0 15px #ff00c8aa;
+}
+
+.buy-btn:hover {
+    background: #ff4dd2;
+    box-shadow: 0 0 25px #ff00c8;
+}
